@@ -1,5 +1,5 @@
 <template>
-  <div class="theme-dark min-h-screen flex justify-center relative">
+  <div class="theme-dark text-custom-text min-h-screen w-full relative overflow-hidden">
     <NuxtRouteAnnouncer />
     <Overlay/>
     <Background/>
