@@ -1,11 +1,11 @@
 <template>
-    <slot class="blured"></slot>
+    <div class="blured-wrapper">
+      <slot></slot>
+    </div>
 </template>
-
-<style>
-
-    .blured{
-        filter: blur(15rem);
+  
+  <style>
+    .blured-wrapper > * {
+      filter: blur(15rem);
     }
-
-</style>
+  </style>
