@@ -1,0 +1,23 @@
+:root {
+    --text: hsl(220, 9%, 7%);
+    --background: hsl(138, 12%, 57%);
+    --primary: hsl(220, 9%, 7%);
+    --secondary: hsl(216, 91%, 57%);
+    --accent: hsl(13, 100%, 54%);
+}
+
+.theme-dark {
+    --text: hsl(138, 12%, 57%);
+    --background: hsl(220, 9%, 7%);
+    --primary: hsl(138, 100%, 74%);
+    --secondary: hsl(216, 91%, 57%);
+    --accent: hsl(13, 100%, 54%);
+}
+
+.theme-light {
+    --text: hsl(220, 9%, 7%);
+    --background: hsl(138, 12%, 57%);
+    --primary: hsl(220, 9%, 7%);
+    --secondary: hsl(216, 91%, 57%);
+    --accent: hsl(13, 100%, 54%);
+}

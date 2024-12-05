@@ -1,0 +1,18 @@
+<script setup>
+
+</script>
+
+<template >
+    <div class="absolute size-full z-40 noise-overlay mix-blend-color-dodge"></div>
+</template>
+
+
+<style>
+    .noise-overlay {
+        background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0ibm9pY2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiID4NCiAgICA8ZmlsdGVyIGlkPSJub2lzZS1maWx0ZXIiPg0KICAgICAgICA8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMS4zNCIgbnVtT2N0YXZlcz0iNCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+DQogICAgICAgIDxmZUNvbG9yTWF0cml4IHR5cGU9InNhdHVyYXRlIiB2YWx1ZXM9IjAiPjwvZmVDb2xvck1hdHJpeD4NCiAgICAgICAgPGZlQ29tcG9uZW50VHJhbnNmZXI+DQogICAgICAgICAgICA8ZmVGdW5jUiB0eXBlPSJsaW5lYXIiIHNsb3BlPSIwLjQ2Ij48L2ZlRnVuY1I+DQogICAgICAgICAgICA8ZmVGdW5jRyB0eXBlPSJsaW5lYXIiIHNsb3BlPSIwLjQ2Ij48L2ZlRnVuY0c+DQogICAgICAgICAgICA8ZmVGdW5jQiB0eXBlPSJsaW5lYXIiIHNsb3BlPSIwLjQ2Ij48L2ZlRnVuY0I+DQogICAgICAgICAgICA8ZmVGdW5jQSB0eXBlPSJsaW5lYXIiIHNsb3BlPSIxIj48L2ZlRnVuY0E+DQogICAgICAgIDwvZmVDb21wb25lbnRUcmFuc2Zlcj4NCiAgICAgICAgPGZlQ29tcG9uZW50VHJhbnNmZXI+DQogICAgICAgICAgICA8ZmVGdW5jUiB0eXBlPSJsaW5lYXIiIHNsb3BlPSIwLjk5IiBpbnRlcmNlcHQ9IjAuMDEiLz4NCiAgICAgICAgICAgIDxmZUZ1bmNHIHR5cGU9ImxpbmVhciIgc2xvcGU9IjAuOTkiIGludGVyY2VwdD0iMC4wMSIvPg0KICAgICAgICAgICAgPGZlRnVuY0IgdHlwZT0ibGluZWFyIiBzbG9wZT0iMC45OSIgaW50ZXJjZXB0PSIwLjAxIi8+DQogICAgICAgIDwvZmVDb21wb25lbnRUcmFuc2Zlcj4NCiAgICA8L2ZpbHRlcj4NCiAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWx0ZXI9InVybCgjbm9pc2UtZmlsdGVyKSI+PC9yZWN0Pg0KPC9zdmc+");
+        background-size: 100px;
+        scale: 1;
+        opacity: .7;
+        pointer-events: none;
+    }
+</style>
